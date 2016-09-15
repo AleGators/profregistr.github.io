@@ -1,0 +1,178 @@
+.not-dark .top-right p {
+  line-height: 60px !important;
+}
+
+#primary-menu .top-right {
+  float: right;
+  text-transform: uppercase;
+}
+
+#primary-menu .top-right p {
+  display: inline-block;
+  line-height: 100px;
+  margin-right: 27px;
+  margin-bottom: 0;
+}
+
+#primary-menu .top-right a {
+  display: inline-block;
+  color: rgba(85, 85, 85, 0.7);
+}
+
+#primary-menu .top-right a:hover {
+  color: #1ABC9C;
+}
+
+.tab-nav {
+  text-transform: uppercase;
+  padding-top: 67px;
+}
+
+.share-section .tabs.tabs-alt ul.tab-nav li a {
+  font-size: 12px;
+}
+
+.share-section ul.tab-nav:not(.tab-nav-lg) li.ui-tabs-active a {
+  background-color: #fff;
+  color: #555;
+}
+
+.share-section ul.tab-nav li a img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.tabs .tab-container {
+  padding: 0;
+}
+
+.tab-content {
+  padding: 18px 30px;
+}
+
+.dash img {
+  margin-bottom: 16px;
+  margin-right: 14px;
+}
+
+.dash h1 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.dash-cont {
+  overflow: hidden;
+}
+
+.dash-cont .left-col-dash {
+  float: left;
+  width: 27%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 20px;
+}
+
+.dash-cont .left-col-dash .phot {
+  width: 155px;
+  height: 155px;
+  background-color: #b2b2b2;
+  border: none;
+  border-radius: 50%;
+}
+
+.dash-cont .left-col-dash p {
+  margin: 17px 0;
+}
+
+.dash-cont .left-col-dash a {
+  color: rgba(85, 85, 85, 0.7);
+}
+
+.dash-cont .left-col-dash a:hover {
+  color: #1ABC9C;
+}
+
+.dash-cont .left-col-dash h4 {
+  text-transform: uppercase;
+  margin-top: 65px;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.dash-cont .left-col-dash .balance {
+  background: #1ABC9C url(../images/Dollar-01.png) no-repeat 20px;
+  width: 100%;
+  height: 50px;
+  text-align: right;
+}
+
+.dash-cont .left-col-dash .balance span {
+  line-height: 50px;
+  color: #fff;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.dash-cont .left-col-dash .see {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.dash-cont .right-col-dash {
+  float: right;
+  width: 73%;
+  padding: 19px 30px 19px 35px;
+}
+
+.dash-cont .right-col-dash .requests .req {
+  height: 140px;
+  margin-top: 5px;
+  line-height: 140px;
+  text-align: center;
+  width: 100%;
+  border: 1px #dddddd solid;
+  border-radius: 3px;
+  color: #000;
+}
+
+.dash-cont .right-col-dash .requests .see {
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 13px;
+}
+
+.dash-cont .right-col-dash .requests .see a {
+  color: rgba(85, 85, 85, 0.7);
+}
+
+.dash-cont .right-col-dash .requests .see a:hover {
+  color: #1ABC9C;
+}
+
+.create-profile .phot {
+  width: 155px;
+  display: block;
+  margin: 0 auto;
+  height: 155px;
+  background-color: #b2b2b2;
+  border: none;
+  border-radius: 50%;
+  margin-bottom: 3%;
+}
+
+.mrgin {
+  margin-right: 4%;
+}
+
+.soc .fright {
+  float: none !important;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}

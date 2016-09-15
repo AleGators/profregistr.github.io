@@ -1,0 +1,20 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" width="17.64mm" height="17.64mm" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Transactions dark</title>
+  <g id="coin">
+    <circle class="cls-1" cx="25" cy="25" r="23.6"/>
+    <path class="cls-1" d="M31.2,14.2a7.23,7.23,0,0,0-6.1-3.7c-6.8-.1-9.9,9.7-1.7,12.4,12.5,4.3,8,14.4,1.9,14.5a9.72,9.72,0,0,1-8.1-4"/>
+    <line class="cls-1" x1="25.4" y1="5.7" x2="25.4" y2="10.5"/>
+    <line class="cls-1" x1="25.4" y1="37.4" x2="25.4" y2="42.2"/>
+  </g>
+</svg>

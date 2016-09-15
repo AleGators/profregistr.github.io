@@ -1,0 +1,18 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" width="17.64mm" height="17.64mm" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Profile</title>
+  <circle class="cls-1" cx="25" cy="25" r="23.8"/>
+  <ellipse class="cls-1" cx="25" cy="23.3" rx="9" ry="11.3"/>
+  <path class="cls-1" d="M20,32.6A17.66,17.66,0,0,0,8.8,42.4"/>
+  <path class="cls-1" d="M41.2,42.4A17.91,17.91,0,0,0,30,32.6"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" width="17.64mm" height="17.64mm" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>Dashboard</title>
+  <path class="cls-1" d="M45.4,43.3A23.57,23.57,0,0,0,49,30.6a24,24,0,0,0-48,0A24.2,24.2,0,0,0,4.6,43.3"/>
+  <circle class="cls-1" cx="24.9" cy="37.9" r="4.3"/>
+  <line class="cls-1" x1="15.8" y1="21.5" x2="22.8" y2="34"/>
+  <line class="cls-1" x1="24.9" y1="12.6" x2="24.9" y2="6.7"/>
+  <line class="cls-1" x1="16.2" y1="14.9" x2="13.3" y2="9.8"/>
+  <line class="cls-1" x1="9.4" y1="21.7" x2="4.3" y2="18.6"/>
+  <line class="cls-1" x1="9.4" y1="39.7" x2="4.3" y2="42.8"/>
+  <line class="cls-1" x1="40.6" y1="39.4" x2="45.8" y2="42.6"/>
+  <line class="cls-1" x1="42.9" y1="30.6" x2="49" y2="30.6"/>
+  <line class="cls-1" x1="40.6" y1="21.7" x2="45.8" y2="18.7"/>
+  <line class="cls-1" x1="34" y1="15.1" x2="37.2" y2="10.1"/>
+  <line class="cls-1" x1="6.9" y1="30.6" x2="1" y2="30.6"/>
+</svg>

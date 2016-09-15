@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/share-profile.css">
+		<!-- Stylesheets
+		============================================= -->
+		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+		<link rel="stylesheet" href="css/dark.css" type="text/css" />
+		<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+		<link rel="stylesheet" href="css/animate.css" type="text/css" />
+		<link rel="stylesheet" href="css/components/radio-checkbox.css" type="text/css">
+		<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+		<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+		<link rel="stylesheet" href="css/roma.css">
+		<title>Dashboard Profile</title>
+	</head>
+	<body class="overall_wrap">
+		<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+			<div id="header-wrap">
+				<div class="container clearfix">
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+					</div><!-- #logo end -->
+					<nav id="primary-menu">
+						<div class="top-right">
+							<p>welcome, your name</p>
+							<a href="login-and-signup.html">Log out</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header><!-- #header end -->
+		<div class="content-wrap">
+			<section class="share-section container clearfix">
+				<div class="tabs tabs-alt clearfix" id="tabs-profile">
+					<ul class="tab-nav clearfix">
+						<li><a class="nav-prof" href="#tab-Dashboard"><img src="images/tabs-icon/Dashboard.svg" alt="img">Dashboard</a></li>
+						<li><a class="nav-prof" href="#tab-Profile"><img src="images/tabs-icon/Profile.svg" alt="img">Profile</a></li>
+						<li><a class="nav-prof" href="#tab-Requests"><img src="images/tabs-icon/Requests.svg" alt="img">Requests</a></li>
+						<li><a class="nav-prof" href="#tab-Transactions"><img src="images/tabs-icon/Transactions.svg" alt="img">Transactions</a></li>
+						<li><a class="nav-prof" href="#tab-Settings"><img src="images/tabs-icon/Settings.svg" alt="img">Settings</a></li>
+					</ul>
+					<div class="tab-container">
+						<div class="tab-content clearfix" id="tab-Dashboard">
+							<div class="dash">
+								<img src="images/tabs-icon/Dashboard.svg" alt="img" style="width="30px" height="30px"">
+								<h1>Dashboard</h1>
+							</div>
+							<div class="dash-cont">
+								<div class="left-col-dash">
+									<div class="photo-space">
+										<img src="images/no-photo-profil.png" alt="" class="phot">
+										<p>My name</p>
+										<a class="edit-profile" href="#">Edit Profile</a>
+									</div>
+									<h4>My balance</h4>
+									<div class="balance">
+										<div class="num">
+											<span>0,00</span>
+										</div>
+									</div>
+									<div class="see">
+										<a class="see-details" href="#">See details</a>
+									</div>
+								</div>
+								<div class="right-col-dash">
+									<a class="tab_request" href="#tab-Requests">
+										<div class="requests">
+											<h4>Approved Requests</h4>
+											<div class="req">You have no approved requests</div>
+											<div class="see"><a class="tab_request" href="#tab-Requests">See all</a></div>
+										</div>
+									</a>
+									<a class="tab_request" href="#">
+										<div class="requests">
+											<h4>New Requests</h4>
+											<div class="req">You have no approved requests</div>
+											<div class="see"><a class="tab_request" href="#">See all</a></div>
+										</div>
+									</a>
+									<a class="tab_request" href="#">
+										<div class="requests">
+											<h4>Saved Requests</h4>
+											<div class="req">You have no approved requests</div>
+											<div class="see"><a class="tab_request" href="#">See all</a></div>
+										</div>
+									</a>
+									<a class="tab_request" href="#">
+										<div class="requests">
+											<h4>My Requests</h4>
+											<div class="req">You have no approved requests</div>
+											<div class="see"><a class="tab_request" href="#">See all</a></div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="tab-content clearfix" id="tab-Profile">
+							<div class="create-profile">
+								<img src="images/no-photo-profil.png" alt="" class="phot">
+								<form class="nobottommargin" id="template-profileform" name="template-contactform" action="include/sendemail.php" method="post">
+
+									<div class="col_half">
+										<label for="template-contactform-name">Name <small>*</small></label>
+										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+									</div>
+
+									<div class="col_half col_last">
+										<label for="template-contactform-email">Email <small>*</small></label>
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+									</div>
+
+									<div class="clear"></div>
+
+									<div class="col_half">
+										<label for="template-contactform-service">Year of Birth</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half col_last">
+										<label for="template-contactform-service">Gender</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="clear"></div>
+
+									<section id="google-map" class="gmap bottommargin" style="height: 300px;"></section>
+
+									<div class="col_half">
+										<label for="template-contactform-service">My primary language</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half col_last">
+										<label for="template-contactform-service">Additional languages</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_full">
+										<label for="template-contactform-message">About me <small>*</small></label>
+										<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+									</div>
+
+									<div class="col_full hidden">
+										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+									</div>
+                                    <h4>My interests</h4>
+									<div class="col_half">
+										<label for="template-contactform-service">Sport</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half col_last">
+										<label for="template-contactform-service">Culture</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half">
+										<label for="template-contactform-service">Entertainment</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half col_last">
+										<label for="template-contactform-service">Nature</label>
+										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+											<option value="">Select</option>
+											<option value="Wordpress">Wordpress</option>
+											<option value="PHP / MySQL">PHP / MySQL</option>
+											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+											<option value="Graphic Design">Graphic Design</option>
+										</select>
+									</div>
+
+									<div class="col_half picture">
+                                        <h4>Photos</h4>
+										
+										<img id="fileload-img" src="images/no-photo-profil.png" />
+									    <p class="up-fil-img">UPLOAD<br/> A PICTURE</p>
+										
+									</div>
+
+									<div class="col_full">
+										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">SAVE</button>
+									</div>
+								</form>
+							</div>
+							<div class="taskinput "> 
+								<form id="fileload-profil" action="#" method="post" enctype="multipart/form-data">
+								<h3>Upload a picture</h3>
+									<div class="file-load-block"> 
+										<input type="file" value="" id="file"> 
+										<div class="fileLoad"> 
+											<button class="button-hover">Pick Image</button> 
+											<input type="text" value=""> 
+										</div> 
+									</div> 
+									<label>TITLE*</label> 
+									<input id="title-img" class="opis" type="text" name="title"> 
+									<label>DESCRIPTION</label> 
+									<textarea class="opis" name="decription"></textarea> 
+									<p class="mandatory">* Mandatory field</p> 
+									<div class="img-save">SAVE</div> 
+									<div class="img-cancell">CANCEL</div> 
+								</form> 
+							</div>
+						</div>
+						<div class="tab-content clearfix" id="tab-Requests">
+							<div class="dash">
+								<img src="images/tabs-icon/Requests.svg" alt="img" style="width=" 30px"="" height="30px" "="">
+								<h1>Requests and Reviews</h1>
+							</div>
+
+							<div class="req-and-rev">
+							<div class="requests">
+											<h4>My Requests</h4>
+											<div class="req">You currently have no new requests.</div>
+											
+							</div>
+
+							<div class="requests">
+											<h4>My Reviews</h4>
+											<div class="req">You currently have no ratigs.</div>
+											
+							</div>
+
+							</div>
+						</div>
+						<div class="tab-content clearfix" id="tab-Transactions">
+							
+                            <div class="dash">
+								<img src="images/tabs-icon/Transactions.svg" alt="img" style="width=" 30px"="" height="30px" "="">
+								<h1>Transactions</h1>
+							</div>
+							
+							<div class="my-transactions">
+							<div class="transact">
+									<h4>My Transactions</h4>
+									<div class="tran">You currently have no new transactions.</div>
+											
+							</div>
+
+							</div>
+
+						</div>
+						<div class="tab-content clearfix" id="tab-Settings">
+
+							<div class="dash">
+								<img src="images/tabs-icon/Settings.svg" alt="img" style="width=" 30px"="" height="30px" "="">
+								<h1>Settings</h1>
+							</div>
+
+							<div class="form-reset">
+                            <h4>Change email</h4>
+							<div class="col_half col_last">
+										<label for="template-contactform-email">Your Email</label>
+										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control">
+							</div>
+							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Change email</button>
+							</div>
+
+							<div class="form-reset">
+                            <h4>Change password</h4>
+							<div class="col_half col_last">
+										<label for="template-contactform-password">new password</label>
+										<input type="password" id="template-contactform-password" name="template-contactform-email" value="" class="required password sm-form-control">
+										<label for="template-contactform-password">confirm new password</label>
+										<input type="password" id="template-contactform-password" name="template-contactform-email" value="" class="required email sm-form-control">
+							</div>
+							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Change password</button>
+							</div>
+                            
+                            <div class="form-reset">
+                            <h4>Notification preferences</h4>
+							<div class="col_half col_last">
+										<div>
+										<input id="checkbox-7" class="checkbox-style" name="checkbox-7" type="checkbox" checked="" >
+										<label for="checkbox-7" class="checkbox-style-2-label">Send me an email, when I receive a new request</label>
+									    </div>
+
+									    <div>
+										<input id="checkbox-8" class="checkbox-style" name="checkbox-8" type="checkbox" >
+										<label for="checkbox-8" class="checkbox-style-2-label">Send me a notification, when I receive a new request</label>
+									    </div>
+							</div>
+							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">save preferences</button>
+							</div>
+
+
+							<div class="form-reset deactivated">
+                            <h4>Deactivate my account</h4>
+							
+							<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Deactivate account</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="soc">
+					<div class="fright clearfix">
+						<a href="#" class="social-icon si-small si-borderless si-facebook">
+							<i class="icon-facebook"></i>
+							<i class="icon-facebook"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-twitter">
+							<i class="icon-twitter"></i>
+							<i class="icon-twitter"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-gplus">
+							<i class="icon-gplus"></i>
+							<i class="icon-gplus"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-pinterest">
+							<i class="icon-pinterest"></i>
+							<i class="icon-pinterest"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-vimeo">
+							<i class="icon-vimeo"></i>
+							<i class="icon-vimeo"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-github">
+							<i class="icon-github"></i>
+							<i class="icon-github"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-yahoo">
+							<i class="icon-yahoo"></i>
+							<i class="icon-yahoo"></i>
+						</a>
+
+						<a href="#" class="social-icon si-small si-borderless si-linkedin">
+							<i class="icon-linkedin"></i>
+							<i class="icon-linkedin"></i>
+						</a>
+					</div>
+				</div>
+
+			</section>
+			<div class="nav-foot-menu">
+				     <a target="_blank" href="http://tripamigos.net/terms-of-service/">Terms of Service</a>
+				     <a target="_blank" href="http://tripamigos.net/privacy-policy/">Privacy Policy</a>
+				     <a target="_blank" href="http://tripamigos.net/contact-tripamigos/">Contact us</a>
+			</div>
+			<p class="prava">© 2016 Tripamigos.All Rights Reserved.</p>
+
+		</div>
+        <div id="bg-form-fail" class="section nopadding nomargin" style="width: 100%;z-index: 210;display: none;height: 100%;position: fixed;left: 0;top: 0;background: #444;"></div>
+
+		<!-- External JavaScripts
+		============================================= -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script>
+		jQuery( "#tabs-profile" ).on( "tabsactivate", function( event, ui ) {
+			jQuery( '.flexslider .slide' ).resize();
+		});
+	</script>
+	<script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
+	<script type="text/javascript" src="js/jquery.gmap.js"></script>
+	<script type="text/javascript">
+
+		$('#google-map').gMap({
+			address: 'Melbourne, Australia',
+			maptype: 'ROADMAP',
+			zoom: 14,
+			markers: [
+				{
+					address: "Melbourne, Australia",
+					html: '<div style="width: 300px;"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>Envato</span></h4><p class="nobottommargin">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day, and a network of educational blogs where millions learn <strong>creative skills</strong>.</p></div>',
+					icon: {
+						image: "images/icons/map-icon-red.png",
+						iconsize: [32, 39],
+						iconanchor: [32,39]
+					}
+				}
+			],
+			doubleclickzoom: false,
+			controls: {
+				panControl: true,
+				zoomControl: true,
+				mapTypeControl: true,
+				scaleControl: false,
+				streetViewControl: false,
+				overviewMapControl: false
+			}
+		});
+	</script>
+
+</body>
+</html>
